@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Config Updater</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="available_networks">Available Networks:</string>
+    <string name="south_africa">South Africa</string>
+    <string name="mtn">MTN</string>
+    <string name="available_networks_logo">Available networks logo</string>
+    <string name="_1_200mb">1. 500mb</string>
+    <string name="_200mb_configs">500mb Configs:</string>
+    <string name="_100mb_configs">500mb Configs:</string>
+    <string name="_2_500mb">2. 500mb</string>
+    <string name="_3_500mb">3. 500mb</string>
+    <string name="_4_500mb">4. 500mb</string>
+    <string name="_5_500mb">5. 500mb</string>
+    <string name="_6_500mb">6. 500mb</string>
+    <string name="_7_500mb">7. 500mb</string>
+    <string name="_8_500mb">8. 500mb</string>
+    <string name="_9_500mb">9. 500mb</string>
+    <string name="_10_500mb">10. 500mb</string>
+    <string name="vodacom">Vodacom</string>
+    <string name="coming_soon">Coming Soon..</string>
+    <string name="cell_c">Cell C</string>
+    <string name="telkom">Telkom</string>
+    <string name="instructions">Instructions</string>
+    <string name="how_to_video">How to Video</string>
+    <string name="read_instructions">Read Instructions</string>
+    <string name="social_media">Social Media</string>
+    <string name="ask_a_question">Ask a Question</string>
+    <string name="telegram">Telegram</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="facebook">Facebook</string>
+    <string name="how_to_use">How to use:</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="wait_until_you_see">Wait until you see" "</string>
+    <string name="ready">READY</string>
+    <string name="tokens">TOKENS:" "</string>
+    <string name="generate_token">Get a Token</string>
+    <string name="retry_loading">Retry loading</string>
+
+    <!-- Steps -->
+    <string name="step0">Before you start\:</string>
+    <string name="step_0">Make sure your default Storage is set to Internal Storage. Also make sure you have \"Http Injector Lite\" installed on your phone you can download it on the Play Store. Once you installed it you can Continue.</string>
+
+    <string name="step1">Step 1\:</string>
+    <string name="step_1">Open Config Updater and the wait till you see \"READY\" at the bottom of your screen. If you don\'t see it after 5 to 15 seconds click on the 3 dots at the top right corner of your screen and press \"Retry Loading\". If it still doesn\'t work please check your Internet Connection.</string>
+
+    <string name="step2">Step 2\:</string>
+    <string name="step_2">In order to Download a Config you will need 1 Token. To get a Token press the 3 dots on the Top right corner then press "Get a Token". Confirm by pressing "Okay".</string>
+
+    <string name="step3">Step 3\:</string>
+    <string name="step_3">Once you have a Token. Choose a Available Network then press the Download Button next to it. Confirm by pressing \"Yes\".</string>
+
+    <string name="step4">Step 4\:</string>
+    <string name="step_4">Once you are done downloading a Config exit Config Updater. Then open Http Injector Lite.</string>
+
+    <string name="step5">Step 5\:</string>
+    <string name="step_5">Once you have opened Http Injector Lite press the Middle icon on the Top Right corner then press \"Import Config\".</string>
+
+    <string name="step6">Step 6\:</string>
+    <string name="step_6">Now locate the downloaded Config(s) they are stored at Internal Storage -> Android -> Data -> com.tmanswap.configupdater -> files -> Download -> then choose the Config you want, when using MTN choose 200mb before 100mb.</string>
+
+    <string name="step7">Step 7\:</string>
+    <string name="step_7">Once You have Chosen which Config you want press Start but only when you no longer have any Data. Enjoy\!</string>
+
+    <!-- Questions -->
+    <string name="faq">FAQ\:</string>
+
+    <string name="faq1">What if I still don\'t understand\?</string>
+    <string name="faq_1">Simply choose "Ask A Question" on the App then choose either FB, WhatsApp or telegram and ask your question there.</string>
+
+    <string name="faq2">How do I know when 200mb(MTN) has been finished\?</string>
+    <string name="faq_2">Go to Http Injector Lite press START then press on the next tab \"LOG\" if you see \"status 302\" in bold text that means 200mb has been finished and you should switch to 100mb.</string>
+
+    <string name="faq3">Who are the Artists on the App\?</string>
+    <string name="faq_3">You can find their names on our Facebook page called \"T\-Man\'s Wap\".</string>
+
+</resources>

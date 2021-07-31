@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E4E3E3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Social Media -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/socialMediaCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CardView.Light"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/socialMediaView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:id="@+id/socialMediaIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/available_networks_logo"
+                android:src="@drawable/ic_question" />
+
+            <TextView
+                android:id="@+id/questions"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/ask_a_question"
+                app:layout_constraintBottom_toTopOf="@+id/dess"
+                app:layout_constraintStart_toEndOf="@+id/socialMediaIcon"
+                app:layout_constraintTop_toTopOf="@+id/socialMediaIcon" />
+
+            <TextView
+                android:id="@+id/dess"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/social_media"
+                android:textColor="#8A000000"
+                app:layout_constraintStart_toEndOf="@+id/socialMediaIcon"
+                app:layout_constraintTop_toBottomOf="@+id/questions" />
+
+            <Button
+                android:id="@+id/socialMediaArrowButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/socialMediaIcon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/socialMediaIcon" />
+
+            <!-- Inner view -->
+
+
+            <!-- Social -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/socialInnerCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                style="@style/CardView.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dess" >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/socialMediaViewExpanded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="12dp"
+                    app:layout_constraintTop_toBottomOf="@+id/line5th"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <View
+                        android:id="@+id/line6th"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider"
+                        app:layout_constraintTop_toTopOf="@id/socialMediaViewExpanded" />
+
+                    <TextView
+                        android:id="@+id/inTelegram"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/telegram"
+                        app:layout_constraintBottom_toTopOf="@+id/inWhatsapp"
+                        app:layout_constraintStart_toStartOf="@id/line6th"
+                        app:layout_constraintTop_toTopOf="@+id/line6th" />
+
+                    <Button
+                        android:id="@+id/telegramButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/ic_open"
+                        app:layout_constraintBottom_toBottomOf="@+id/inTelegram"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/inTelegram"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/inWhatsapp"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/whatsapp"
+                        app:layout_constraintTop_toBottomOf="@+id/inTelegram"
+                        app:layout_constraintStart_toStartOf="@id/inTelegram" />
+
+                    <Button
+                        android:id="@+id/whatsappButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/ic_open"
+                        app:layout_constraintBottom_toBottomOf="@+id/inWhatsapp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/inWhatsapp"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/inFacebook"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/facebook"
+                        app:layout_constraintTop_toBottomOf="@+id/inWhatsapp"
+                        app:layout_constraintStart_toStartOf="@id/inWhatsapp" />
+
+                    <Button
+                        android:id="@+id/facebookButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/ic_open"
+                        app:layout_constraintBottom_toBottomOf="@+id/inFacebook"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/inFacebook"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

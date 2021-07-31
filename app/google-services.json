@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "139590751438",
+    "firebase_url": "https://config-updater-v5.firebaseio.com",
+    "project_id": "config-updater-v5",
+    "storage_bucket": "config-updater-v5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139590751438:android:021120d7af6dd56c6f2c9f",
+        "android_client_info": {
+          "package_name": "com.tmanswap.configupdater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139590751438-pffjkar6ot8t9lhbhbe7suqnudoqb3h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0gpbf22t-sHYhe92H3w_4x-jVfO2lP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139590751438-pffjkar6ot8t9lhbhbe7suqnudoqb3h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
